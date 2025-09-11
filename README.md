@@ -191,11 +191,11 @@ GET	/produtos/existe	Verifica existência
 ####  Escrita
 #### Método	Rota	Descrição
 <br>
-POST	/produtos	Criar produto
+POST	/products	Criar produto
 <br>
-PUT	/produtos/{id}	Atualizar produto
+PUT	/products/{id}	Atualizar produto
 <br>
-DELETE	/produtos/{id}	Excluir produto
+DELETE	/products/{id}	Excluir produto
 <br>
 
 ## 🛒 Carrinho
@@ -223,14 +223,14 @@ GET	/favoritos/recomendacoes	Sugerir produtos
 #### Método	Rota	Descrição
 POST	/checkout	Criar pedido
 <br>
-GET	/checkout/usuario	Listar pedidos
+GET	/usuario	Listar pedidos
 <br>
 
 ## 💳 Pagamentos
 #### Método	Rota	Descrição
-POST	/pagamentos/{pedidoId}	Criar pagamento
+POST	/pagamento/{pedidoId}	Criar pagamento
 <br>
-GET	/pagamentos/{pedidoId}	Consultar status do pagamento
+GET	/pagamento/{pedidoId}	Consultar status do pagamento
 <br>
 
 Nota: É necessário estar logado para acessar os endpoints protegidos — com exceção dos de registro e login.
